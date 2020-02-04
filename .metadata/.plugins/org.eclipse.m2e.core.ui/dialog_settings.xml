@@ -45,10 +45,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.bridgelabz"/>
+			<item value="hibernate-helloworld-example"/>
 		</list>
 		<list key="name">
+			<item value="hibernate-helloworld-example"/>
+			<item value="Hibernate-hello-world"/>
 		</list>
 		<list key="artifactId">
+			<item value="hibernate-helloworld"/>
+			<item value="hibernate-helloworld-example"/>
+			<item value="Hibernate-hello-world"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -61,5 +68,9 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
