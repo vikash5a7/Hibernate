@@ -29,7 +29,7 @@ public class App {
 			e.printStackTrace();
 		}
 
-		try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+		try (Session session = HibernateUtil.getSessionFactory().openSession()){
 			List<Student> students = session.createQuery("from Student", Student.class).list();
 			students.forEach(s -> System.out.println(s.getFirstName()));
 		} catch (Exception e) {
