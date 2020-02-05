@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/mobicomp/eclipse-workspace2/hibernate-helloworld"/>
 			<item value="/home/mobicomp/eclipse-workspace2"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -49,10 +50,14 @@
 			<item value="hibernate-helloworld-example"/>
 		</list>
 		<list key="name">
+			<item value="Hibernate crud example"/>
+			<item value="hibernate-xml-config-example"/>
 			<item value="hibernate-helloworld-example"/>
 			<item value="Hibernate-hello-world"/>
 		</list>
 		<list key="artifactId">
+			<item value="hibernate-crud-example"/>
+			<item value="hibernate-xml-config-example"/>
 			<item value="hibernate-helloworld"/>
 			<item value="hibernate-helloworld-example"/>
 			<item value="Hibernate-hello-world"/>
